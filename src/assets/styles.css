@@ -1,0 +1,59 @@
+/* body, *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #242424;
+    color:ghostwhite;
+    padding: 0px 125px;
+
+}
+
+.section{
+    width: 100%;
+} */
+
+#typewriter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#typewriter-scroll {
+  min-height: 100vh;
+}
+
+/* Styles typewriter effect */
+.typewriter {
+  inline-size: 100%;
+  text-align: left;
+  overflow-wrap: break-word;
+  hyphens: manual;
+  -ms-hyphens: manual;
+  -moz-hyphens: manual;
+  -webkit-hyphens: manual;
+}
+.typewriter-blink::after {
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  animation: blink 0.6s steps(5, start) infinite;
+  content: "▍";
+  margin-left: 0.25rem;
+  vertical-align: baseline;
+}
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
