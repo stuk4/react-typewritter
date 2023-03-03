@@ -1,6 +1,6 @@
 {
   "name": "react-typewritter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An implementation of a typewriter effect.",
   "author": "Bastian Pérez",
   "main": "dist/cjs/index.js",
