@@ -1,6 +1,6 @@
 # React Typewriter
 
-This library is an implementation of a typewriter effect using React.
+This library is an implementation of a typewriter effect.
 
 ## Usage
 
