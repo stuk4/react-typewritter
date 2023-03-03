@@ -1,7 +1,7 @@
 import { createElement, useEffect, useRef } from "react";
 import { ITypeWriterProps } from "../interfaces/ITypeWriter";
 import { handleTypeWriter } from "../utils/handleTypeWriter";
-
+import "../assets/styles.css";
 const TypeWriter = ({
   elementType: Element,
   text,
