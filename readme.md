@@ -1,6 +1,6 @@
 # React Typewriter
 
-This library is an implementation of a typewriter effect using React.
+This library is an implementation of a typewriter effect.
 
 ## Usage
 
@@ -32,13 +32,13 @@ export const Example = () => {
 
 To use the `<TypeWriterInView> `component, the principal diference between the normal is that it uses the library [react-intersection-observer](https://github.com/thebuilder/react-intersection-observer) for show the element when is in the viewport . You need pass it the following props:
 
-| Name            | Type                | Default    | Description                                                                               |
-| --------------- | ------------------- | ---------- | ----------------------------------------------------------------------------------------- |
-| **elementType** | `string`            | `required` | Is the element to render (if you want a more types of elements only edit its interface ). |
-| **text**        | `string`            | `required` | A string to apply the effect..                                                            |
-| **interval**    | `number (optional)` | `20`       | The interval between character writed                                                     |
-| **classNames**  | `string (optional)` | `""`       | ClassName to add to the Element created                                                   |
-| **delay**       | `number (optional)` | `0`        | A number indicating the delay in milliseconds to start to write                           |
+| Name            | Type                | Default    | Description                                                     |
+| --------------- | ------------------- | ---------- | --------------------------------------------------------------- |
+| **elementType** | `string`            | `required` | Is the element to render                                        |
+| **text**        | `string`            | `required` | A string to apply the effect..                                  |
+| **interval**    | `number (optional)` | `20`       | The interval between character writed                           |
+| **classNames**  | `string (optional)` | `""`       | ClassName to add to the Element created                         |
+| **delay**       | `number (optional)` | `0`        | A number indicating the delay in milliseconds to start to write |
 
 Example:
 
