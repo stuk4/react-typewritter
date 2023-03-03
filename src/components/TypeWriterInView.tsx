@@ -2,7 +2,6 @@ import { createElement } from "react";
 import { useInView } from "react-intersection-observer";
 import { useTypeWriter } from "../hooks/useTypeWriterInView";
 import { ITypeWriterProps } from "../interfaces/ITypeWriter";
-import "../assets/styles.css";
 const TypeWriterInView = ({
   elementType: Element,
   text,
